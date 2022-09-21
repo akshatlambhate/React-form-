@@ -1,0 +1,66 @@
+@font-face {
+    font-family: space;
+    src: url(./SpaceMono-Regular.ttf);
+}
+.outer {
+    padding: 1em 1em;
+  font-family: space;
+ justify-content: center;
+ align-items: center;
+  margin: 20px 20x 50px 50px ;
+  display: flex;
+  /* border: 4px solid red; */
+  box-shadow: 2px 5px 10px 2px ;
+  
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5em;
+    font-family: space;
+}
+.inputElements {
+  padding: 0.75em 2em;
+  font-size: 1rem;
+}
+.messageElements {
+    /* text-align: justify; */
+    padding: 5rem;
+    border: 1px solid red;
+    text-align: left;
+
+}
+.messageElements::placeholder {
+  
+    font-size: 1;
+    
+
+}
+
+.submitbtn {
+    color: #DD8F8E;
+    width: 100px;
+    margin: auto;
+    padding:  0.5em 1.2em;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgb(161, 161, 230);
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+
+}
+
+.submitbtn:hover {
+  color: #106875;
+  background-color: #c09fa3be;
+}
+.image {
+    width: 19rem;
+    margin-left: 1em;
+    /* border: 2px solid black; */
+
+
+}
