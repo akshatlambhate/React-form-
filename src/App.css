@@ -1,13 +1,26 @@
+@font-face {
+  font-family: headings;
+  src: url(./components/MJ\ AlGhifari\ Demo.ttf);
+}
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-image: url('./assets/background.jpg');
   background-size: cover;
 }
+.uptext h1 {
+  font-family: headings;
+  font-size: 2.5rem;
 
+}
+.uptext h2 {
+   font-size: 1rem;
+   font-style: italic;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

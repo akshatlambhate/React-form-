@@ -28,14 +28,18 @@
       <section className='outer'>
         <div className='formleft'>
        <form className='form' onSubmit={handleSubmit}>
+         <label > FullName</label>
         <input type='text' name='FullName' autoComplete='null' placeholder='FullName' className='inputElements'
            value={userRegister.FullName} onChange = {handleInput}></input>
+           <label > Contact Number</label>
         <input type='text' name='ContactNo' autoComplete='null'placeholder='Contact Number' className='inputElements'
          value={userRegister.ContactNo} onChange = {handleInput}></input>
+         <label >  Email</label>
         <input type='text' name='Email' autoComplete='null' placeholder='Email' className='inputElements'
         value={userRegister.Email} onChange = {handleInput}></input>
-        <input type='textarea' name='Message' rows="5" cols="5" autoComplete='null' placeholder='please share your thoughts with us!' className='messageElements'
-        value={userRegister.Message} onChange = {handleInput}></input>
+        <label > Message</label>
+        <textarea name='Message' rows="5" cols="5" autoComplete='null' placeholder='please share your thoughts with us!' className='messageElements'
+        value={userRegister.Message} onChange = {handleInput}></textarea>
          <button id='button' className='submitbtn'> SUBMIT</button>
         
        </form>
